@@ -7,13 +7,15 @@
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">Categories</h4>
-                        <a class="btn btn-main" asp-action="create" asp-controller="category" asp-area="admin">CREATE CATEgory</a>
+                        <a class="btn btn-primary" asp-action="create" asp-controller="category" asp-area="admin">CREATE CATEGORY</a>
                         <div class="table-responsive">
                             <table class="table">
                                 <thead>
                                     <tr>
                                         <th>Id</th>
                                         <th>Title</th>
+                                        <th>Actions</th>
+
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -22,6 +24,11 @@
                                         <tr>
                                             <td>@category.Id</td>
                                             <td>@category.Title</td>
+                                            <td>
+                                                <a class="btn btn-primary" asp-action="update" asp-controller="category" asp-area="admin" asp-route-id="@category.Id">Update</a>
+                                                 <a class="btn btn-danger" asp-action="delete" asp-controller="category" asp-area="admin" asp-route-id="@category.Id">Delete</a>
+                                                 <a class="btn btn-info" asp-action="details" asp-controller="category" asp-area="admin" asp-route-id="@category.Id">Details</a>
+                                            </td>
                                         </tr>
                                     }
 

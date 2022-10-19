@@ -16,6 +16,7 @@
                                         <th>Title</th>
                                         <th>Text</th>
                                         <th>FilePath</th>
+                                        <th>Actions</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -26,6 +27,12 @@
                                             <td>@category.Title</td>
                                             <td>@category.Text</td>
                                             <td>@category.FilePath</td>
+                                            <td >
+
+                                                <a class="btn btn-primary " asp-action="update" asp-controller="recentwork" asp-area="admin" asp-route-id=@category.Id>Update</a>
+                                                <a class="btn btn-primary btn-danger " asp-action="delete" asp-controller="recentwork" asp-area="admin" asp-route-id=@category.Id>Delete</a>
+                                                 <a class="btn btn-primary btn-details " asp-action="details" asp-controller="recentwork" asp-area="admin" asp-route-id=@category.Id>Details</a>
+                                            </td>
                                         </tr>
                                     }
 
