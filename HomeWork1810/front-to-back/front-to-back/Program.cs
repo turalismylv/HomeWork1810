@@ -13,7 +13,9 @@ builder.Services.AddDbContext<AppDbContext>(x => x.UseSqlServer(connectionString
 
 #region App
 
+
 var app = builder.Build();
+app.UseHttpsRedirection();
 
 app.MapControllerRoute(
     name: "areas",

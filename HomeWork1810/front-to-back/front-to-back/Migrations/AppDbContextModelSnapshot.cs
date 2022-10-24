@@ -68,7 +68,7 @@ namespace front_to_back.Migrations
                     b.ToTable("CategoryComponents");
                 });
 
-            modelBuilder.Entity("front_to_back.Models.ContractIntroComponent", b =>
+            modelBuilder.Entity("front_to_back.Models.ContactBanner", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -76,11 +76,11 @@ namespace front_to_back.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<string>("Description")
+                    b.Property<string>("Information")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("FilePath")
+                    b.Property<string>("PhotoPath")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -88,9 +88,13 @@ namespace front_to_back.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Title2")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("Id");
 
-                    b.ToTable("ContractIntroComponent");
+                    b.ToTable("ContactBanners");
                 });
 
             modelBuilder.Entity("front_to_back.Models.RecentWorkComponent", b =>
@@ -116,6 +120,34 @@ namespace front_to_back.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("RecentWorkComponents");
+                });
+
+            modelBuilder.Entity("front_to_back.Models.TeamMember", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PhotoPath")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Position")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Surname")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("TeamMembers");
                 });
 
             modelBuilder.Entity("front_to_back.Models.CategoryComponent", b =>

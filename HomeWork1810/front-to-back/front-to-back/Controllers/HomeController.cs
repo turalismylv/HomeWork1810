@@ -17,14 +17,22 @@ namespace front_to_back.Controllers
 
         public async Task<IActionResult> Index()
         {
+
             var recentWorkComponents = await _appDbContext.RecentWorkComponents.ToListAsync();
 
             var model = new HomeIndexViewModel
             {
-                RecentWorkComponents = recentWorkComponents,
+                RecentWorkComponents = await _appDbContext.RecentWorkComponents.OrderByDescending(rcw => rcw.Id).Take(3).ToListAsync()
             };
 
             return View(model);
         }
+        public async Task<IActionResult> LoadMore(int skipRow)
+        {
+            var recentWorkComponents = await _appDbContext.RecentWorkComponents.OrderByDescending(rcw => rcw.Id).Skip(3 * skipRow).Take(3).ToListAsync();
+            return PartialView("_RecentWorkComponentPartial", recentWorkComponents);
+        }
+
+
     }
 }

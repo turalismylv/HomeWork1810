@@ -15,14 +15,17 @@ namespace front_to_back.Controllers
         }
         public async Task<IActionResult> Index()
         {
+
             var categories = await _appDbContext.Categories
                                                     .Include(c => c.CategoryComponents)
                                                     .ToListAsync();
+
 
             var model = new WorkIndexViewModel
             {
                 Categories = categories
             };
+
 
             return View(model);
         }

@@ -4,6 +4,6 @@ namespace front_to_back.ViewModels.Contact
 {
     public class ContactIndexViewModel
     {
-        public ContractIntroComponent ContractIntroComponent { get; set; }
+        public ContactBanner ContactBanner { get; set; }
     }
 }

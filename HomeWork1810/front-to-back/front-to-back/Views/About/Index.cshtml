@@ -1,4 +1,5 @@
-﻿
+﻿@using front_to_back.ViewModels.About
+@model AboutIndexViewModel
     <!-- Start Banner Hero -->
     <section class="bg-light w-100">
         <div class="container">
@@ -31,27 +32,19 @@
             </div>
 
             <div class="col-lg-9 row">
+
+                @foreach (var teamMember in Model.TeamMembers)
+                {
                 <div class="team-member col-md-4">
-                    <img class="team-member-img img-fluid rounded-circle p-4" src="~/assets/img/team-01.jpg" alt="Card image">
+                    <img class="team-member-img img-fluid rounded-circle p-4" src="~/assets/img/@teamMember.PhotoPath" alt="Card image">
                     <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
-                        <li>John Doe</li>
-                        <li>Business Development</li>
+                        <li>@teamMember.Name @teamMember.Surname</li>
+                        <li>@teamMember.Position</li>
                     </ul>
                 </div>
-                <div class="team-member col-md-4">
-                    <img class="team-member-img img-fluid rounded-circle p-4" src="~/assets/img/team-02.jpg" alt="Card image">
-                    <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
-                        <li>Jane Doe</li>
-                        <li>Media Development</li>
-                    </ul>
-                </div>
-                <div class="team-member col-md-4">
-                    <img class="team-member-img img-fluid rounded-circle p-4" src="~/assets/img/team-03.jpg" alt="Card image">
-                    <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
-                        <li>Sam</li>
-                        <li>Developer</li>
-                    </ul>
-                </div>
+                    
+                }
+                
             </div>
 
         </div>

@@ -35,12 +35,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/HomeWorks/HomeWork1810/HomeWork1810/front-to-back/front-to-back/Areas/Admin/Views/ContactIntroComponent/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29udGFjdEludHJvQ29tcG9uZW50XENyZWF0ZS5jc2h0bWw=
+[C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/HomeWorks/HomeWork1810/HomeWork1810/front-to-back/front-to-back/Areas/Admin/Views/ContactBanner/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29udGFjdEJhbm5lclxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/HomeWorks/HomeWork1810/HomeWork1810/front-to-back/front-to-back/Areas/Admin/Views/ContactIntroComponent/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29udGFjdEludHJvQ29tcG9uZW50XEluZGV4LmNzaHRtbA==
+[C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/HomeWorks/HomeWork1810/HomeWork1810/front-to-back/front-to-back/Areas/Admin/Views/ContactBanner/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29udGFjdEJhbm5lclxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/HomeWorks/HomeWork1810/HomeWork1810/front-to-back/front-to-back/Areas/Admin/Views/ContactBanner/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29udGFjdEJhbm5lclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/HomeWorks/HomeWork1810/HomeWork1810/front-to-back/front-to-back/Areas/Admin/Views/Dashboard/Index.cshtml]
@@ -71,6 +75,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/HomeWorks/HomeWork1810/HomeWork1810/front-to-back/front-to-back/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/HomeWorks/HomeWork1810/HomeWork1810/front-to-back/front-to-back/Areas/Admin/Views/TeamMember/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGVhbU1lbWJlclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/HomeWorks/HomeWork1810/HomeWork1810/front-to-back/front-to-back/Areas/Admin/Views/TeamMember/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGVhbU1lbWJlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/HomeWorks/HomeWork1810/HomeWork1810/front-to-back/front-to-back/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -93,6 +109,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/HomeWorks/HomeWork1810/HomeWork1810/front-to-back/front-to-back/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/HomeWorks/HomeWork1810/HomeWork1810/front-to-back/front-to-back/Views/Shared/_RecentWorkComponentPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9SZWNlbnRXb3JrQ29tcG9uZW50UGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/HomeWorks/HomeWork1810/HomeWork1810/front-to-back/front-to-back/Views/Work/Index.cshtml]
